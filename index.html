@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Bootstrap 4 Player</title>
+
+  <meta name="description" content="Source code generated using layoutit.com">
+  <meta name="author" content="LayoutIt!">
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/nouislider.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="video-container" id="video-container">
+          <video controls poster='' class="video" id="video" preload="metadata">
+            <source id="video-source" src='https://media.publit.io/file/demo-a.mp4'>
+          </video>
+          <div class="controls-top">
+            <div id="btn1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="10.559" height="18" viewBox="0 0 10.559 18">
+                <path id="Path_72" data-name="Path 72"
+                  d="M22.772,10A5.278,5.278,0,0,0,17.5,15.272h2.636a2.636,2.636,0,0,1,5.272,0,2.694,2.694,0,0,1-.768,1.868L23,18.8a5.261,5.261,0,0,0-1.536,3.72v.663H24.1a4.416,4.416,0,0,1,1.551-3.721l1.175-1.205a4.2,4.2,0,0,0,1.235-2.967A5.3,5.3,0,0,0,22.772,10ZM21.341,28H24.2V25.138H21.341Z"
+                  transform="translate(-17.5 -10)" fill="#fff" />
+              </svg>
+              <span>Button 1</span>
+            </div>
+            <div id="btn2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+                <path id="ic_subscriptions_24px"
+                  d="M20,8H4V6H20ZM18,2H6V4H18Zm4,10v8a2.006,2.006,0,0,1-2,2H4a2.006,2.006,0,0,1-2-2V12a2.006,2.006,0,0,1,2-2H20A2.006,2.006,0,0,1,22,12Zm-6,4-6-3.27v6.53Z"
+                  transform="translate(-2 -2)" fill="#fff" />
+              </svg>
+              <span>Button 2</span>
+            </div>
+            <div id="btn3">
+              <svg xmlns="http://www.w3.org/2000/svg" width="4" height="16" viewBox="0 0 4 16">
+                <path id="ic_more_vert_24px"
+                  d="M12,8a2,2,0,1,0-2-2A2.006,2.006,0,0,0,12,8Zm0,2a2,2,0,1,0,2,2A2.006,2.006,0,0,0,12,10Zm0,6a2,2,0,1,0,2,2A2.006,2.006,0,0,0,12,16Z"
+                  transform="translate(-10 -4)" fill="#fff" />
+              </svg>
+              <span>Button 3</span>
+            </div>
+          </div>
+          <!-- <div id="speech-bubble">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut laboren
+          </div> -->
+          <div class="playback-animation center" id="playback-animation">
+            <svg style="margin-left: 3px;" class="hidden" xmlns="http://www.w3.org/2000/svg" width="11" height="14"
+              viewBox="0 0 11 14">
+              <path id="ic_play_arrow_24px" d="M8,5V19l11-7Z" transform="translate(-8 -5)" fill="#fff" />
+            </svg>
+            <svg class="" xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14">
+              <path id="ic_pause_24px" d="M6,19h4V5H6ZM14,5V19h4V5Z" transform="translate(-6 -5)" fill="#fff" />
+            </svg>
+          </div>
+          <div class="controls-bottom controls hidden">
+            <div id="slider"></div>
+            <div class="buttons">
+              <div class="left">
+                <div id="playpause" data-title="Play (k)">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14" viewBox="0 0 11 14">
+                    <path id="ic_play_arrow_24px" d="M8,5V19l11-7Z" transform="translate(-8 -5)" fill="#fff" />
+                  </svg>
+                  <svg class="hidden" xmlns="http://www.w3.org/2000/svg" width="12" height="14" viewBox="0 0 12 14">
+                    <path id="ic_pause_24px" d="M6,19h4V5H6ZM14,5V19h4V5Z" transform="translate(-6 -5)" fill="#fff" />
+                  </svg>
+                  <svg class=" replay hidden" xmlns="http://www.w3.org/2000/svg" width="16" height="20"
+                    viewBox="0 0 16 20">
+                    <path id="ic_replay_24px" d="M12,5V1L7,6l5,5V7a6,6,0,1,1-6,6H4a8,8,0,1,0,8-8Z"
+                      transform="translate(-4 -1)" fill="#fff" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/wNumb.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
